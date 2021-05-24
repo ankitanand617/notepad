@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+
+    <link rel="icon" href="favicon.png" sizes="20x20" type="image/png" />
+    <link rel="stylesheet" href="notepad.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&amp;display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="container">
+        <div class="menu">
+            <div class="box" id="box1">
+                <h1 id="heading">Online Notepad</h1>
+            </div>
+
+            <div class="box" id="box2">
+                <button id="save" onclick="save1()">Save</button>
+                <button id="clear" onclick="clear1()">Clear</button>
+                <div id="auto">
+                    <label for="feature-flag" id="autosave">Autosave&nbsp;</label>
+                    <input type="checkbox" onclick="fun1()" id="feature-flag">
+                </div>
+
+            </div>
+        </div>
+
+
+        <textarea name="text" id="textarea" value="" placeholder="Write your notes here"></textarea>
+        <footer>Made with ❤️ in India</footer>
+    </div>
+
+    <script src="notepad.js"></script>
+
+</body>
+
+
+</html>

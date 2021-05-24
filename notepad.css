@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1.2fr 7.8fr 1fr;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 100%;
+
+    align-items: center;
+    background-color: rgb(80, 78, 78);
+}
+
+.box {
+    height: fit-content;
+    width: fit-content;
+    /* border: 2px solid red; */
+
+}
+
+button {
+    height: 5.5vh;
+    width: 15%;
+    font-size: 1.6vw;
+    border-radius: 8px;
+    font-weight: 600;
+    color: black;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(155, 148, 148); */
+}
+
+#box1 {
+
+    height: fit-content;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#box2 {
+    height: 5vh;
+    width: 37%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#autosave {
+    font-size: 1.5vw;
+    font-weight: 500;
+
+}
+
+#heading {
+    font-size: 2.5vw;
+    font-weight: 1000;
+
+}
+
+button:hover {
+    color: whitesmoke;
+    background-color: rgb(43, 42, 42);
+    border: 3px solid wheat;
+}
+
+#textarea {
+    /* width: 99%; */
+    /* height: 80vh; */
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 500;
+    line-height: 1.3em;
+    padding:1vw;
+}
+
+footer {
+    color: rgb(22, 22, 22);
+    background-color: grey;
+    text-align: center;
+    /* height: 10vh; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3vw;
+    font-weight: 600;
+
+}
+
+#auto {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* media quries for phone */
+@media (max-width:800px) {
+
+    #container {
+        height: 100vh;
+        width: 100%;
+        /* border: 2px solid black; */
+        background-color: white;
+        display: grid;
+        grid-template-rows: 1.1fr 12fr 0.8fr;
+
+    }
+
+
+    #heading {
+        font-size: 5.9vw;
+        font-weight: 1000;
+
+    }
+
+    #box1 {
+        width: 46%;
+    }
+
+    #box2 {
+        width: 50%;
+
+    }
+
+    #autosave {
+        font-size: 3.5vw;
+        font-weight: 500;
+
+    }
+
+    button {
+        height: 3.2vh;
+        width: 26%;
+        font-size: 4.2vw;
+        border-radius: 6px;
+        font-weight: 700;
+        color: black;
+        border: 2px solid black;
+
+    }
+
+
+    #textarea {
+        font-size: 5.5vw;
+        font-weight: 500;
+        line-height: 1.3em;
+    }
+
+    footer {
+
+        font-size: 5.5vw;
+        font-weight: 600;
+
+    }
+
+
+}
