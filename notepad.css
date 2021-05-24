@@ -121,6 +121,13 @@ footer {
 
 
 /* media quries for phone */
+@media (max-width:500px) {
+.menu{
+    height: 65px;
+    width: 100%;
+}
+}
+
 @media (max-width:800px) {
 
     #container {
@@ -132,11 +139,7 @@ footer {
         grid-template-rows: 1fr 12fr 1fr;
 
     }
-    .menu{
-        height: 75px;
-        width: 100%;
-    }
-
+    
 
     #heading {
         font-size: 5.9vw;
